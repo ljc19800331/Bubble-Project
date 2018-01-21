@@ -1,7 +1,5 @@
 function [nozzel_upper_row,nozzel_upper_column] = nozzle_diameter()
 % Find the width and length of the nozzle
-
-
 %clc
 %clear all
 %close all
@@ -36,7 +34,6 @@ nozzel_upper_column=189;
 
 %Find the upper and lower column
 
-  
 %sym row_max
 %for i=nozzel_upper_row:1:nozzel_lower_row
     %find(bw(710,:),150,'last'); 

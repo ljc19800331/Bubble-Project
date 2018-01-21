@@ -1,5 +1,4 @@
 function [bary_xonly]=barycenter_for_xonly(L,num,m,n)
-
 for k=1:num  
 sum_x=0;      
 area=0; 

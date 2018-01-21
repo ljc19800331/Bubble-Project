@@ -3,7 +3,7 @@ function []=plot_trajectory_firstbubble(plot_x,plot_y,k,m,n,bubble_first,firstim
 %Plot the trajectory of the bubble
 
 bw_trajectory=logical(zeros(m,n));
-figure
+figure(7);
 imshow(bw_trajectory);
 i=k;
 
